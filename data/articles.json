@@ -1,0 +1,17 @@
+[
+  {
+    "id": "001",
+    "title": "Redis Launches Native Vector Support",
+    "content": "Redis has added native vector search capabilities to better support AI workloads."
+  },
+  {
+    "id": "002",
+    "title": "OpenAI Releases GPT-4 Turbo",
+    "content": "OpenAI has released GPT-4 Turbo, a cheaper and faster variant of GPT-4 optimized for inference."
+  },
+  {
+    "id": "003",
+    "title": "Meta Open Sources LLaMA 3",
+    "content": "Meta has open-sourced LLaMA 3, its most powerful open model yet for natural language understanding."
+  }
+]

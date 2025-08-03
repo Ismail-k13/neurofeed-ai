@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neurofeed AI Search</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    input[type="text"] {
+      width: 400px;
+      padding: 10px;
+    }
+    button {
+      padding: 10px 20px;
+    }
+    .results {
+      margin-top: 20px;
+    }
+    .article {
+      background: white;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Neurofeed AI: Healthcare Article Search</h1>
+  <input type="text" id="query" placeholder="Ask about healthcare, AI, neuro...">
+  <button onclick="search()">Search</button>
+
+  <div class="results" id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

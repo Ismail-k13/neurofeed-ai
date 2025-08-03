@@ -1,7 +1,11 @@
 import redis
 import os
+from dotenv import load_dotenv
 
-# Get environment variables or use defaults
+# Load environment variables from .env file
+load_dotenv()
+
+# Connect to Redis using environment variables
 r = redis.Redis(
     host=os.getenv("REDIS_HOST", "localhost"),
     port=int(os.getenv("REDIS_PORT", 6379)),
